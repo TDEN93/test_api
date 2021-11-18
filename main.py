@@ -3,10 +3,8 @@ from flask_restful import Resource, Api, reqparse
 from datetime import date
 
 STUDENTS = {
-    '1': {'name': 'Tray', 'age': 28, 'mood': 'good', 'playtime_start': "today", 'meditation': True, 'meditation_length': 5, 'hours_slept': 8, 'breakfast': False, 'lunch': True, 'dinner': False,
-  'caffeine_amount_in_mg': 400, 'water_amount_in_oz': 16},
-    '2': {'name': 'Vincent', 'age': 0, 'mood': 'good', 'playtime_start': "today", 'meditation': True, 'meditation_length': 6, 'hours_slept': 8, 'breakfast': False, 'lunch': True, 'dinner': False,
-  'caffeine_amount_in_mg': 400, 'water_amount_in_oz': 16},
+    '1': {'name': 'player1', 'age': 28, 'mood': 'good'},
+    '2': {'name': 'player2', 'age': 24, 'mood': 'good'},
 }
 
 
